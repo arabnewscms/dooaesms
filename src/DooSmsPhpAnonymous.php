@@ -1,8 +1,8 @@
 <?php
-namespace Dooae\Phpanonymous;
+namespace DooaeSms\Phpanonymous;
 
 use Illuminate\Support\ServiceProvider;
-use Dooae\Phpanonymous\Doo;
+use DooaeSms\Phpanonymous\Doo;
 use Config;
 class DooSmsPhpAnonymous extends ServiceProvider
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Dooae\Phpanonymous;
+namespace DooaeSms\Phpanonymous;
 use App\Http\Controllers\Controller; 
 class Doo extends Controller
 {
