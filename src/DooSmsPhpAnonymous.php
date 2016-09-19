@@ -13,13 +13,19 @@ class DooSmsPhpAnonymous extends ServiceProvider
      */
     public function boot()
     {
-      $this->publishes([
-        __DIR__.'/config' => base_path('config'),
-      ]);
+      if(!file_exists(base_path('config').'/doosms.php'))
+      {
+          $this->publishes([
+            __DIR__.'/config' => base_path('config'),
+          ]);
+      }  
 
-      $this->publishes([
-        __DIR__.'/lang' => base_path('resources/lang/'.Config::get('app.locale')),
-      ]);
+      if(!file_exists(base_path('resources/lang/'.Config::get('app.locale').'/doosms.php')))
+      { 
+          $this->publishes([
+            __DIR__.'/lang' => base_path('resources/lang/'.Config::get('app.locale')),
+          ]);
+      }
 
        
     }
