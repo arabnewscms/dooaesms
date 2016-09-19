@@ -3,7 +3,7 @@
     "description": "A dooae SMS Package created By PhpAnonymous",
     "license": "MIT",
     "type": "package",
-    "version":"1.0",
+    "version":"1.0.1",
     "keywords": ["laravel","lumen","Dooae","doo.ae","phpanonymous","Dooae-sms"],
     "authors": [
         {

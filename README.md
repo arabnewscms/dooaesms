@@ -4,20 +4,20 @@ i'ts easy step .
 
 1 - install with composer  
 
-`composer require dooaesms/phpanonymous:dev-master`  
+`composer require Dooae/phpanonymous:dev-master`  
 
 2 - add  provider class to app.php in config folder  . 
 
 ```php 
 
-DooaeSms\Phpanonymous\DooaePhpAnonymous::class, 
+Dooae\Phpanonymous\DooaePhpAnonymous::class, 
 
 ```
  
  3 - add aliases class 
  
 ```php 
-'Doo'    => DooaeSms\Phpanonymous\Doo::class,
+'Doo'    => Dooae\Phpanonymous\Doo::class,
 ```
 
 4 - then call this command from composer.
